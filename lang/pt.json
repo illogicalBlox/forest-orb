@@ -28,18 +28,18 @@
     },
     "chatbox": {
       "location": "Localização:&nbsp;",
-      "immersionMode": "Immersion Mode",
+      "immersionMode": "Modo de imersão",
       "tab": {
         "chat": "Bate-Papo",
         "players": "Jogadores",
-        "parties": "Parties"
+        "parties": "Partidas"
       },
       "chat": {
         "tab": {
           "all": "Todos",
           "map": "Mapa",
           "global": "Global",
-          "party": "Party"
+          "party": "Partida"
         },
         "nickname": {
           "header": "Defina seu nickname antes de acessar o bate papo.",
@@ -52,7 +52,7 @@
       "players": {
         "tab": {
           "map": "Mapa",
-          "party": "Party"
+          "party": "Partida"
         }
       }
     },
@@ -100,16 +100,16 @@
           },
           "toggleNametags": "Torna visível as Nametags",
           "togglePlayerSounds": "Escutar as ações dos jogadores",
-          "toggleLocationDisplay": "Location Display",
+          "toggleLocationDisplay": "Display de Localização",
           "toggleRankings": "Rankings",
           "toggleFloodProtection": "Sistema Anti-Spam"
         },
-        "chatSettings": "Chat Settings",
+        "chatSettings": "Configurações do Chat",
         "notificationSettings": "Configurações de Notificação",
         "accountSettings": "Configurações da Conta"
       },
       "chatSettings": {
-        "title": "Chat Settings",
+        "title": "Configurações do Chat",
         "fields": {
           "toggleTabToChat": "Atalho Tab para Chat",
           "chatHistoryLimit": {
@@ -125,13 +125,13 @@
             }
           },
           "mapChatHistoryLimit": {
-            "label": "Map Chat History Limit"
+            "label": "Limite histórico do Chat do Mapa"
           },
           "globalChatHistoryLimit": {
-            "label": "Global Chat History Limit"
+            "label": "Limite histórico do Chat Global"
           },
           "partyChatHistoryLimit": {
-            "label": "Party Chat History Limit"
+            "label": "Limite Histórico do Chat da Partida"
           }
         }
       },
@@ -166,18 +166,18 @@
           "parties": {
             "label": "Parties",
             "fields": {
-              "create": "Party Criada",
-              "update": "Party Atualizada",
-              "join": "Se juntou a Party",
-              "leave": "Saiu da Party",
-              "remove": "Removido da Party",
-              "disband": "Party foi Dissolvida",
-              "playerJoin": "Player Se juntou a Party",
-              "playerLeave": "Player Saiu da Party",
-              "playerOnline": "Party Member ficou Online",
-              "playerOffline": "Party Member ficou Offline",
-              "kickPlayer": "Player foi expulso da Party",
-              "transferPartyOwner": "O Player foi promovido a líder da Party"
+              "create": "Partida Criada",
+              "update": "Partida Atualizada",
+              "join": "Se juntou a Partida",
+              "leave": "Saiu da Partida",
+              "remove": "Removido da Partida",
+              "disband": "Partida foi Dissolvida",
+              "playerJoin": "Player Se juntou a Partida",
+              "playerLeave": "Player Saiu da Partida",
+              "playerOnline": "Membro da partida ficou Online",
+              "playerOffline": "Membro da partida ficou Offline",
+              "kickPlayer": "Player foi expulso da Partida",
+              "transferPartyOwner": "O Player foi promovido a líder da Partida"
             }
           },
           "events": {
@@ -248,11 +248,11 @@
       },
       "createParty": {
         "title": {
-          "create": "Criar Party",
-          "update": "Editar Party"
+          "create": "Criar Partida",
+          "update": "Editar Partida"
         },
         "fields": {
-          "partyName": "Nome da Party",
+          "partyName": "Nome da Partida",
           "description": "Descrição",
           "public": "Publico",
           "password": "Senha",
@@ -263,7 +263,7 @@
         "submit": "Enviar"
       },
       "joinPrivateParty": {
-        "title": "Entra em Party privada",
+        "title": "Entra em Partida privada",
         "fields": {
           "password": "Senha"
         },
@@ -302,8 +302,8 @@
         "clearChat": "Limpar o Chat"
       },
       "parties": {
-        "createParty": "Criar Party",
-        "disbandParty": "Desfazer Party"
+        "createParty": "Criar Partida",
+        "disbandParty": "Desfazer Partida"
       },
       "events": "Expedições",
       "rankings": "Rankings",
@@ -369,8 +369,8 @@
     "playerList": {
       "unnamed": "Jogador Sem Nome",
       "actions": {
-        "partyKick": "Expulsar da Party",
-        "transferPartyOwner": "Promover a líder da Party"
+        "partyKick": "Expulsar da Partida",
+        "transferPartyOwner": "Promover a líder da Partida"
       }
     },
     "roles": {
@@ -430,17 +430,17 @@
     },
     "parties": {
       "emptyMessage": "No momento não há Parties ativas.",
-      "yourParty": "Sua Party",
-      "defaultPartyName": "{OWNER}'s Party",
-      "partyOwner": "Líder da Party",
+      "yourParty": "Sua Partida",
+      "defaultPartyName": "Partida de {OWNER}",
+      "partyOwner": "Líder da Partida",
       "offlineMemberSuffix": " (Offline)",
       "onlineCount": "Online - {COUNT}",
       "offlineCount": "Offline - {COUNT}",
       "actions": {
-        "viewPartyDetails": "Ver detalhes da Party ",
-        "joinParty": "Se Juntar a Party",
-        "joinPrivateParty": "Se Juntar a Party privada",
-        "leaveParty": "Sair da Party"
+        "viewPartyDetails": "Ver detalhes da Partida ",
+        "joinParty": "Se Juntar a Partida",
+        "joinPrivateParty": "Se Juntar a Partida privada",
+        "leaveParty": "Sair da Partida"
       }
     },
     "chatTips": {
@@ -451,10 +451,10 @@
         "playersInMap": "Você pode alternar entre o número de jogadores online e o número de jogadores em seu mapa clicando no rótulo..",
         "globalChatLocation": "Você pode visualizar o local de onde uma mensagem de bate-papo global foi enviada passando o mouse ou clicando no ícone de globo à esquerda da mensagem. Ele também mostrará ou ocultará futuras localizações de mensagens de bate-papo globais com base em sua última exibição ou ocultação.",
         "markdownSupport": "O chat suporta formatação de texto por envolver o texto em certos caracteres. Os atualmente suportados são: **negrito** (\\*\\*texto\\*\\*), *itálico* (\\*texto\\*, \\_texto\\_), __sublinhado__ (\\_\\_texto\\_\\_), ~~tachado~~ (\\~\\~texto\\~\\~), e ||spoiler|| (\\|\\|texto\\|\\|).",
-        "tabToChat": "If you're playing on a PC, you can press the tab key to toggle between the game and the chat input. This feature can be disabled in the Chat Settings under 'Press Tab to Chat'.",
+        "tabToChat": "Se estiver jogando em um PC, você pode pressionar TAB para alternar-se entre o jogo e a escrita do chat. Essa funcionalidade pode ser desativada nas Configurações do Chat abaixo do 'Pressione Tab para conversar'.",
         "chatTabNotifications": "Quando você estiver em outra guia de chat que não seja 'Todas', se uma nova mensagem é enviada na outra guia filtrada, ela ficará em negrito na etiqueta da guia para lhe notificar.",
         "clearChat": "Quando você clica no botão de limpar o chat no canto superior direito na caixa do chat, se você não estiver na guia 'Todas', ele só irá remover as mensagens da guia do chat atual em que você estiver.",
-        "chatHistoryLimit": "If your chat history gets too long, you may experience performance issues. In the Chat Settings, you can limit your chat history accordingly to avoid these issues without having to manually clear your chat.",
+        "chatHistoryLimit": "Se o seu histórico de chat ficar muito longo, você pode encontrar problemas de performance. Nas Configurações do Chat, você pode limitar o seu Histórico do chat como quiser para não ter esses problemas sem ter que manualmente limpar seu chat.",
         "parties": "As Parties são uma ótima maneira de ficar junto com as pessoas em uma aventura. Você pode ver a localização dos membros do seu grupo e conversar com eles em um chat privado.",
         "immersionMode": "Se você preferir uma experiência mais imersiva em vez de uma social, experimente o Immersion Mode. Ele desativa o bate-papo global, a lista de jogadores e a contagem de jogadores, então é mais interessante encontrar outro jogador enquanto explora.",
         "openSource": "YNOproject é código aberto e os repositórios do código estão disponíveis em https://github.com/ynoproject/"
@@ -491,7 +491,7 @@
       "events": {
         "complete": "Expedição Concluída!\nPor ir a {LOCATION}, você ganhou {EXP}.",
         "freeComplete": "Expedição Concluída!\nPor ir a {LOCATION}.",
-        "vmComplete": "Vending Machine Found!\nYou have been awarded {EXP}.",
+        "vmComplete": "Maquina de vendas encontrado!\nVocê ganhou {EXP}.",
         "listUpdated": "A lista de expedições foi atualizada."
       },
       "badges": {
